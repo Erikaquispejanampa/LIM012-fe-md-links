@@ -1,9 +1,11 @@
-const FunctionsPath = require('../util/path.js');
+const methodPath = require('../util/method-path.js');
 
 function mdLinks(path, options) {
     
-    return FunctionsPath.isAbsolute(path);
-
+    if(!methodPath.isAbsolute(path))
+        return methodPath.changeToAbsolute(path);
+           
+    
 }
 
 
