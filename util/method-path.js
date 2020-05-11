@@ -13,7 +13,7 @@ function extName(inputUrl){
   return path.extname(inputUrl);
 }
 
-const functionsPath = {
+const methodPath = {
     isAbsolute,
     changeToAbsolute,
     extName
@@ -21,4 +21,4 @@ const functionsPath = {
 
 
 
-module.exports = functionsPath;
+module.exports = methodPath;

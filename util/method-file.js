@@ -14,6 +14,10 @@ function typeFile(inputUrl){
     return type;
 }
 
+function readFile(inputUrl){
+    return fs.readFileSync(inputUrl, 'utf8');
+}
+
 function getFileDirectory(inputUrl){
     let files = fs.readdirSync(inputUrl);
     let pathFiles = [];
@@ -25,14 +29,10 @@ function getFileDirectory(inputUrl){
 
 }
 
-function getLinksFile(inputUrl){
-
-}
-
-const functionsFile = {
+const methodFile = {
     typeFile,
     getFileDirectory,
-    getLinksFile
+    readFile
   };
 
-  module.exports = functionsFile;
+  module.exports = methodFile;
