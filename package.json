@@ -1,0 +1,28 @@
+{
+  "name": "eq-md-links",
+  "version": "1.0.0",
+  "description": "md-links",
+  "main": ".src/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "eslint": "eslint --ext .js",
+    "pretest": "npm run eslint"
+  },
+  "author": "ErikaQuispe",
+  "license": "ISC",
+  "bin": {
+    "md-links": ".src/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.9.6", 
+    "colors": "^1.4.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-jest": "^23.8.2",
+    "filehound": "^1.17.4",
+    "jest": "^25.5.4",
+    "link": "^0.1.5",
+    "marked": "^1.0.0",
+    "node-fetch": "^2.6.0"
+  }
+}
