@@ -23,7 +23,17 @@ describe('Probar valores', () => {
     expect(path.extName('E:\\Laboratoria\\Proyectos\\LIM012-fe-md-links\\MDs\\prueba1.md')).toBe('.md');
   });
     
-  })
+  it('Validar ruta es absoluta --> true', () => {
+    expect(path.isAbsolute('E:\\Laboratoria\\Proyectos\\LIM012-fe-md-links\\MDs\\prueba1.md')).toBe(true);
+  });
+
+  it('Validar ruta es absoluta --> false', () => {
+    expect(path.isAbsolute('./MDs/prueba1.md')).toBe(false);
+  });
+
+
+
+})
 
 
 
