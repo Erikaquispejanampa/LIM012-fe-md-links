@@ -31,7 +31,9 @@ describe('Probar valores', () => {
     expect(path.isAbsolute('./MDs/prueba1.md')).toBe(false);
   });
 
-
+  it('Validar cambio de ruta --> relativa a absoluta ', () => {
+    expect(path.changeToAbsolute('./MDs/prueba1.md')).toBe('E:\\Laboratoria\\Proyectos\\LIM012-fe-md-links\\MDs\\prueba1.md');
+  });
 
 })
 
