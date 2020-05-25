@@ -14,9 +14,14 @@ function mdLinks(path, options) {
         if(!methodPath.isAbsolute(path)){
             path =  methodPath.changeToAbsolute(path);
         }
+      
+        try{
+            type =  methodFile.typeFile(path);
+        }
+        catch(e){
+            reject(e.message);
+        }
         
-        type =  methodFile.typeFile(path);
-
         if(type === 'file'){
 
             // console.log(methodPath.extName(path));
@@ -65,12 +70,52 @@ function mdLinks(path, options) {
     })
 }
 
+function stats (links){
+    let total = 0;
+    let unique = 0;
 
+    for (const link of links) {
+        total++;
+        if(link.status === 200)
+            unique++;
+    }
+
+    return {
+        Total: total,
+        Unique: unique
+    };
+}
+
+function statsValidate(links){
+    let total = 0;
+    let unique = 0;
+    let broken = 0;
+
+    for (const link of links) {
+        total++;
+        if(link.status === 200)
+            unique++;
+        else
+            broken++;
+    }
+
+    return {
+        Total: total,
+        Unique: unique,
+        Broken: broken
+    };
+}
 
 // function add(a,b){
 //     return a+b
 // }
 
+const api = {
+    mdLinks,
+    statsValidate,
+    stats
+  };
+
 
 // module.exports=add
-module.exports = mdLinks;
+module.exports = api;

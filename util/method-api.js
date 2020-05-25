@@ -1,6 +1,6 @@
 
-const fetch = require('node-fetch');
-
+const fetch = require('node-fetch'); //Este nodo tiene que leer una Url
+//Voy a crear la función validate, recibe una entrada path(link)                   
 function validate( links ){
 
     let new_list = links.map( (link) =>{

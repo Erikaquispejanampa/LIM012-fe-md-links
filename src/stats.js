@@ -1,5 +1,3 @@
-
-
 const stats = (ruta) =>{
     return `validando stats --> ${ruta}`;
 }

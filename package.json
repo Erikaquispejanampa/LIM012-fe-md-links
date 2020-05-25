@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "md-links",
   "main": ".src/index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest --verbose --coverage",
+   
     "eslint": "eslint --ext .js",
     "pretest": "npm run eslint"
   },
