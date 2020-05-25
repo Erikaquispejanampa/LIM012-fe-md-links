@@ -1,5 +1,6 @@
 const file = require("../util/method-file");
 
+let contentFile = 'prueba de contenido';
 
 describe('Probar si es objeto Funcion', () => {
     it('funcion typeFile', () => {
@@ -17,18 +18,20 @@ describe('Probar si es objeto Funcion', () => {
   });
 
 
-// describe('Probar valores', () => {
+describe('Probar valores', () => {
 
-//     it('debe retornar validando validate--> ruta', () => {
-//         expect(validate.validate('ruta')).toBe('validando validate--> ruta');
-//     });
+    it('Validar Tipo archivo --> File', () => {
+        expect(file.typeFile('E:\\Laboratoria\\Proyectos\\LIM012-fe-md-links\\MDs\\prueba1.md')).toBe('file');
+    });
     
-//     it('debe retornar validando stats --> ruta', () => {
-//         expect(stats.stats('ruta')).toBe('validando stats --> ruta');
-//     });
+    it('Validar Tipo archivo --> Directory', () => {
+      expect(file.typeFile('E:\\Laboratoria\\Proyectos\\LIM012-fe-md-links\\MDs\\')).toBe('directory');
+    });
     
-//   })
+    it('Validar contenido de archivo', () => {
+      expect(file.readFile('E:\\Laboratoria\\Proyectos\\LIM012-fe-md-links\\MDs\\contenido.md')).toBe(contentFile);
+    });
+
+})
 
 
-
-  
