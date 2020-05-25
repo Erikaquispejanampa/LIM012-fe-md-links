@@ -167,4 +167,11 @@ describe('Probar si es objeto Funcion', () => {
           api.mdLinks('./MDs/',  {validate: true} ).then((links) => expect(links).toEqual(directory_linksValidate));
     });
 
+    it('Validar stats en directorio', () => {
+        expect(api.stats(directory_linksValidate)).toEqual({ Total: 7, Unique: 6 });
+    });
+    
+    it('Validar stats en archivo', () => {
+        expect(api.stats(file_linksValidate)).toEqual({ Total: 3, Unique: 2 });
+    });
 })
