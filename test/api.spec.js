@@ -174,4 +174,12 @@ describe('Probar si es objeto Funcion', () => {
     it('Validar stats en archivo', () => {
         expect(api.stats(file_linksValidate)).toEqual({ Total: 3, Unique: 2 });
     });
+
+    it('Validar statsValidate en directorio', () => {
+        expect(api.statsValidate(directory_linksValidate)).toEqual({ Total: 7, Unique: 6, Broken: 1 });
+    });
+    
+    it('Validar statsValidate en archivo', () => {
+        expect(api.statsValidate(file_linksValidate)).toEqual({ Total: 3, Unique: 2, Broken: 1 });
+    });
 })
