@@ -17,17 +17,13 @@ describe('Probar si es objeto Funcion', () => {
   });
 
 
-// describe('Probar valores', () => {
+describe('Probar valores', () => {
 
-//     it('debe retornar validando validate--> ruta', () => {
-//         expect(validate.validate('ruta')).toBe('validando validate--> ruta');
-//     });
+  it('Validar si extensión de archivo md', () => {
+    expect(path.extName('E:\\Laboratoria\\Proyectos\\LIM012-fe-md-links\\MDs\\prueba1.md')).toBe('.md');
+  });
     
-//     it('debe retornar validando stats --> ruta', () => {
-//         expect(stats.stats('ruta')).toBe('validando stats --> ruta');
-//     });
-    
-//   })
+  })
 
 
 
