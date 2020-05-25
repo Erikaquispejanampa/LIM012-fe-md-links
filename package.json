@@ -15,7 +15,7 @@
   "author": "ErikaQuispe",
   "license": "ISC",
   "bin": {
-    "md-links": ".src/index.js"
+    "md-links": ".src/cli.js"
   },
   "dependencies": {},
   "devDependencies": {
