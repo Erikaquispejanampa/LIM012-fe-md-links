@@ -27,14 +27,11 @@ if( option1 === undefined ||  option1 === '--validate' || option1 === '--stats' 
         .then( (resp) =>{
 
             if (option1 === '--validate' && option2 === undefined){
-                console.log('1');
                 console.log(resp);
             }else if (option1 === '--stats' && option2 === undefined){
-                console.log('2');
                 console.log( api.stats(resp));
             }
             else{
-                console.log('3');
                 console.log( api.statsValidate(resp));
             }
 
