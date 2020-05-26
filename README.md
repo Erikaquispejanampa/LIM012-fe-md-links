@@ -1,5 +1,43 @@
 # Markdown Links
 
+## 1. Librería md-links
+
+Es una librería de node js orientado al consumo de rutas absolutas, en su proceso lee y extrae los links de archivos con extensión .md y como retorno devuelve un listado de links.
+
+## 2. Diagrama de Flujo md-links
+* ![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/md-links.png)
+
+Planificación md-links: [Project Erika] (https://github.com/Erikaquispejanampa/LIM012-fe-md-links/projects/1)
+
+## 3. API
+
+3.1   Archivo options.validate
+* ![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/--validateArchivo.JPG)
+
+
+3.2   Directorio options.validate
+* ![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/--validateDirectorio.JPG)
+
+
+## 4. CLI 
+
+4.1  Opción --stats
+
+* ![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/--stats.JPG)
+##### `--stats`
+
+4.2 Opción --validate --stats
+
+* ![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/--stats--validate.JPG)
+##### `--validate` `--stats` 
+
+## 5. Test
+
+* ![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/test01.JPG)
+* ![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/test02.JPG)
+* ![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/test03.JPG)
+
+
 ## Preámbulo
 
 [Markdown](https://es.wikipedia.org/wiki/Markdown) es un lenguaje de marcado
@@ -247,33 +285,33 @@ Recuerda colocar en esta seccion los objetivos de aprendizaje que quedaron
 pendientes de tu proyecto anterior.
 
 ### Javascript
-- [ ] Uso de callbacks
-- [ ] Consumo de Promesas
-- [ ] Creacion de Promesas
-- [ ] Modulos de Js
-- [ ] Recursión
+- [x] Uso de callbacks
+- [x] Consumo de Promesas
+- [x] Creacion de Promesas
+- [x] Modulos de Js
+- [x] Recursión
 
 ### Node
-- [ ] Sistema de archivos
-- [ ] package.json
-- [ ] crear modules
-- [ ] Instalar y usar modules
-- [ ] npm scripts
-- [ ] CLI (Command Line Interface - Interfaz de Línea de Comando)
+- [x] Sistema de archivos
+- [x] package.json
+- [x] crear modules
+- [x] Instalar y usar modules
+- [x] npm scripts
+- [x] CLI (Command Line Interface - Interfaz de Línea de Comando)
 
 ### Testing
-- [ ] Testeo de tus funciones
-- [ ] Testeo asíncrono
+- [x] Testeo de tus funciones
+- [x] Testeo asíncrono
 - [ ] Uso de librerias de Mock
 - [ ] Mocks manuales
 - [ ] Testeo para multiples Sistemas Operativos
 
 ### Git y Github
-- [ ] Organización en Github
+- [x] Organización en Github
 
 ### Buenas prácticas de desarrollo
-- [ ] Modularización
-- [ ] Nomenclatura / Semántica
+- [x] Modularización
+- [x] Nomenclatura / Semántica
 - [ ] Linting
 
 ***
