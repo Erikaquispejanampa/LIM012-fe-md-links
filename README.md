@@ -2,40 +2,40 @@
 
 ## 1. Librería md-links
 
-Es una librería de node js orientado al consumo de rutas absolutas, en su proceso lee y extrae los links de archivos con extensión .md y como retorno devuelve un listado de links.
+Es una librería para el entorno de programación node.js orientado al consumo de rutas absolutas, en su proceso lee y extrae los links de los archivos con extensión .md y como retorno devuelve un listado de links.
 
 ## 2. Diagrama de Flujo md-links
-* ![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/md-links.png)
+![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/md-links.png)
 
-Planificación md-links: [Project Erika] (https://github.com/Erikaquispejanampa/LIM012-fe-md-links/projects/1)
+Planificación md-links: [Project Erika](https://github.com/Erikaquispejanampa/LIM012-fe-md-links/projects/1)
 
 ## 3. API
 
 3.1   Archivo options.validate
-* ![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/--validateArchivo.JPG)
+![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/--validateArchivo.JPG)
 
 
 3.2   Directorio options.validate
-* ![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/--validateDirectorio.JPG)
+![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/--validateDirectorio.JPG)
 
 
 ## 4. CLI 
 
 4.1  Opción --stats
 
-* ![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/--stats.JPG)
+![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/--stats.JPG)
 ##### `--stats`
 
 4.2 Opción --validate --stats
 
-* ![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/--stats--validate.JPG)
+![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/--stats--validate.JPG)
 ##### `--validate` `--stats` 
 
 ## 5. Test
 
-* ![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/test01.JPG)
-* ![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/test02.JPG)
-* ![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/test03.JPG)
+![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/test01.JPG)
+![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/test02.JPG)
+![](https://raw.githubusercontent.com/Erikaquispejanampa/LIM012-fe-md-links/master/img/test03.JPG)
 
 
 ## Preámbulo
